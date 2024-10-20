@@ -1,0 +1,71 @@
+@font-face {
+   font-display: swap;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+   font-display: swap;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+   font-display: swap;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+   font-display: swap;
+   font-family: 'Play';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+   font-display: swap;
+   font-family: 'Play';
+   font-style: normal;
+   font-weight: 700;
+   src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+:root {
+   --color-primary-dark: #011C44;
+   --color-primary-light: #2B7FFF;
+   --color-black: #000;
+   --color-white: #fff;
+
+}
+
+/* base */
+body {
+   color: var(--color-primary-dark);
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+   font-weight: 400;
+}
+
+/* 
+button {
+   font: inherit;
+} */
+
+.button {
+   color: var(--color-primary-light);
+   font-size: 28px;
+   font-weight: 600;
+   background-color: var(--color-primary-light);
+   border: 2px solid var(--color-brand-light);
+   border-radius: 8px;
+   cursor: pointer;
+}
